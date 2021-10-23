@@ -1,0 +1,109 @@
+@media (min-width: 0px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    height: 300px;
+    width: 600px;
+    overflow: auto;
+  }
+
+  .titulo1 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid var(--danger);
+    width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: tomato;
+    border-bottom: 2px solid rgb(133, 133, 133);
+  }
+
+  .card .subtitulo {
+    font-size: 0.7em;
+    font-size: 0.7em;
+    color: #5e2d2d;
+  }
+
+  .cuerpo {
+    font-size: 0.7em;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .card {
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 0px 2px 2px 0px;
+    height: 400px;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.75);
+  }
+
+  .titulo1 {
+    text-align: center;
+  }
+  .card h3 {
+    margin-top: 10px;
+    font-size: 1.3em;
+    color: tomato;
+    border-bottom: 2px solid rgb(133, 133, 133);
+  }
+
+  .card .subtitulo {
+    font-size: 0.8em;
+    color: #5e2d2d;
+  }
+
+  .cuerpo {
+    font-size: 0.7em;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+}
